@@ -1,7 +1,5 @@
 fastapi
-uvicorn[standard]
+uvicorn
 python-multipart
-sqlite3 ; python_version >= "3.0"
-python-dotenv
-# if you plan to use Google Gemini official client, install it when ready:
-# google-generativeai
+google-generativeai
+sqlite3-binary
